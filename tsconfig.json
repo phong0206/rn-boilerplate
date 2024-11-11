@@ -102,7 +102,7 @@
   "include": [
     "node_modules/@types",
     "./src/**/*"
-  ],
+, "src/App.tsx"  ],
   "exclude": [
     "node_modules",
     "babel.config.js",
