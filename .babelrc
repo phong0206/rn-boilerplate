@@ -3,16 +3,18 @@
   "plugins": [
     ["module-resolver", {
       "alias": {
-        "api": "./src/api",
-        "services": "./src/services/",
-        "shared": "./src/shared/",
-        "assets": "./src/assets/",
-        "feature": "./src/feature/",
-        "hooks": "./src/hooks/",
-        "navigation": "./src/navigation",
-        "components": "./src/components",
-        "app-redux": "./src/app-redux",
-        "utilities": "./src/utilities"
+        "@api": "./src/apis",
+        "@services": "./src/services/",
+        "@shared": "./src/shared/",
+        "@assets": "./src/assets/",
+        "@constants": "./src/constants/",
+        "@hooks": "./src/hooks/",
+        "@navigation": "./src/navigation",
+        "@components": "./src/components",
+        "@store": "./src/store",
+        "@utils": "./src/utils",
+        "@interfaces": "./src/interfaces",
+        "@features": "./src/features"
       }
     }]
   ]
